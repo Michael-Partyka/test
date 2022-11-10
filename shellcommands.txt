@@ -1,8 +1,14 @@
 pwd : prints working directory
+mdkir : creates a folder
 cd : change directory
+init : creates git repository
 nano: inspect the contents of a file
 git --version : prints git version
 git add : adds a file to the staging area
 git add .  : adds all modified files
+git status : tells you what items are in staging area
 git commit : commits items in the staging area
 git commit -m "This is a commit message" : lets you write a message
+git diff : compares the changes in a file not in staging area to the last commited version
+git diff -r HEAD : compares the version in the staging area to the last commit
+git diff -r HEAD . : see how all files in the staging area have changed
