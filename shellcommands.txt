@@ -1,0 +1,8 @@
+pwd : prints working directory
+cd : change directory
+nano: inspect the contents of a file
+git --version : prints git version
+git add : adds a file to the staging area
+git add .  : adds all modified files
+git commit : commits items in the staging area
+git commit -m "This is a commit message" : lets you write a message
